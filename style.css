@@ -23,6 +23,11 @@
   .carousel-item p{
     font-size: 15px;
   }
+  .img-height{
+    height: 500px;
+  }
+
+  
 }
 
 /* media query for small devices */
@@ -39,6 +44,7 @@
   }
   
   
+  
 }
 
 /* media query for medium devices */
@@ -51,6 +57,9 @@
     padding-bottom: 30px;
   }
   .carousel-item h1{
+    font-size: 25px;
+  }
+  .institute-heading h1{
     font-size: 25px;
   }
 
