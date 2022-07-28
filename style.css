@@ -5,6 +5,19 @@
   padding-bottom: 140px;
 }
 
+.color-bg{
+  background-color: #289BDE;
+}
+.color-text{
+  color: #289BDE;
+}
+.color-bg:hover{
+  background-color: #289BDE;
+}
+.border{
+  border: 2px solid #289BDE;
+}
+
 /* media query extra small device */
 
 @media screen and (max-width: 576px) {
@@ -26,7 +39,6 @@
   .img-height{
     height: 500px;
   }
-
   
 }
 

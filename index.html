@@ -1,273 +1,450 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Stanford Academy</title>
-    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wiser Academy</title>
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- custom class -->
+    <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
-      <header class="container">
-       
-        <!-- navbar start here -->
+    <header class="container">
+      <!-- navbar start here -->
 
-        <nav class="navbar navbar-expand-lg bg-light lg:bg-green md:bg-info mt-4 mx-5">
-          <div class="container">
-            <a class="navbar-brand fw-bold fs-3 " href="#">Wiser Academy</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link ms-4" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link ms-4" href="#">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link ms-4" href="#">Deals</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link ms-4" href="#">Success</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link ms-4" href="#">About</a>
-                </li>
-               
-              </ul>
-              <form class="d-flex" role="search">
-                <button class="btn btn-outline-info fw-bold px-4 py-2" type="submit">Register</button>
-              </form>
-            </div>
+      <nav
+        class="navbar navbar-expand-lg bg-light lg:bg-green md:bg-info mt-4 mx-5"
+      >
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-3" href="#">Wiser Academy</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link ms-4" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-4" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-4" href="#">Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-4" href="#">Success</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-4" href="#">About</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button
+                class="btn color-text border-info fw-bold px-4 py-2"
+                type="submit"
+              >
+                Register
+              </button>
+            </form>
           </div>
-        </nav>
-       
-        <!-- navbar end here -->
+        </div>
+      </nav>
 
-        <!-- sliders start here -->
-       <section class="container p-5">
+      <!-- navbar end here -->
 
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          
+      <!-- sliders start here -->
+      <section class="container p-5">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/cover/cover-1.png" class="d-block w-100 img-gradient rounded" alt="...">
+              <img
+                src="images/cover/cover-1.png"
+                class="d-block w-100 img-gradient rounded"
+                alt="..."
+              />
               <div class="carousel-caption d-block heading-center">
-                <h1 class="text-white fw-bold md:text-info sm:text-danger">Let's Explore The New Way Of <br class="remove"> Learning</h1>
-                <p class="text-white">“Education is the most powerful weapon which you can use to change the world.” <br> – Nelson Mandela</p>
-                <button class="btn btn-info text-white">Get Started</button>
+                <h1 class="text-white fw-bold md:text-info sm:text-danger">
+                  Let's Explore The New Way Of <br class="remove" />
+                  Learning
+                </h1>
+                <p class="text-white">
+                  “Education is the most powerful weapon which you can use to
+                  change the world.” <br />
+                  – Nelson Mandela
+                </p>
+                <button class="btn color-bg text-white">Get Started</button>
               </div>
             </div>
-            <div class="carousel-item ">
-              <img src="images/cover/cover-2-new.jpg" class="d-block w-100 img-gradient rounded" alt="...">
+            <div class="carousel-item">
+              <img
+                src="images/cover/cover-2-new.jpg"
+                class="d-block w-100 img-gradient rounded"
+                alt="..."
+              />
               <div class="carousel-caption d-block heading-center">
-                <h1 class="text-white fw-bold ">Let's Explore The New Way Of <br class="remove"> Learning</h1>
-                <p class="text-white">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” <br> – Malcolm X</p>
-                <button class="btn btn-info text-white">Get Started</button>
+                <h1 class="text-white fw-bold">
+                  Let's Explore The New Way Of <br class="remove" />
+                  Learning
+                </h1>
+                <p class="text-white">
+                  “Education is the passport to the future, for tomorrow belongs
+                  to those who prepare for it today.” <br />
+                  – Malcolm X
+                </p>
+                <button class="btn color-bg text-white">Get Started</button>
               </div>
             </div>
-            <div class="carousel-item ">
-              <img src="images/cover/cover-3.jpg" class="d-block w-100 img-gradient rounded" alt="...">
+            <div class="carousel-item">
+              <img
+                src="images/cover/cover-3.jpg"
+                class="d-block w-100 img-gradient rounded"
+                alt="..."
+              />
               <div class="carousel-caption d-block heading-center">
-                <h1 class="text-white fw-bold ">Let's Explore The New Way Of <br class="remove"> Learning</h1>
-                <p class="text-white"> “Education is simply the soul of a society as it passes from one generation to another.” <br> – G.K. Chesterton</p>
-                <button class="btn btn-info text-white">Get Started</button>
+                <h1 class="text-white fw-bold">
+                  Let's Explore The New Way Of <br class="remove" />
+                  Learning
+                </h1>
+                <p class="text-white">
+                  “Education is simply the soul of a society as it passes from
+                  one generation to another.” <br />
+                  – G.K. Chesterton
+                </p>
+                <button class="btn color-bg text-white">Get Started</button>
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        
+      </section>
 
+      <!-- sliders end here -->
+    </header>
 
-       </section>
-
-        <!-- sliders end here -->
-       
-      </header>
-
-
-
-
-      <main>
-
+    <main>
       <!-- courses section start -->
 
       <section class="container p-5">
         <h1 class="text-center">Top-selling Courses</h1>
-        <p   class="text-center text-secondary mb-5">Learn from True Experts.Two decades of experience in the industry. <br> We explain tons of tips and tricks that help you</p>
+        <p class="text-center text-secondary mb-5">
+          Learn from True Experts.Two decades of experience in the industry.
+          <br />
+          We explain tons of tips and tricks that help you
+        </p>
         <div class="row">
-          <div class="col-lg-6 col-md-12 ">
-            <div class="card mb-3" >
-              <div class="row  g-0">
+          <div class="col-lg-6 col-md-12">
+            <div class="card mb-3">
+              <div class="row g-0">
                 <div class="col-md-4 col-lg-4 col-sm-12">
-                  <img src="images/course/course-1.png" class="img-fluid rounded-start w-100" alt="...">
+                  <img
+                    src="images/course/course-1.png"
+                    class="img-fluid rounded-start w-100"
+                    alt="..."
+                  />
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12">
                   <div class="card-body">
-                    <h5 class="card-title fw-bold">Fundamental Of UI/UX Design</h5>
+                    <h5 class="card-title fw-bold">
+                      Fundamental Of UI/UX Design
+                    </h5>
                     <p class="card-text text-secondary">
-                      Become the best Disigner you can be with unlimited access to all the existing and future courses.</p>
-                    <p class="text-info fw-bold">Price:20$</p>
+                      Become the best Disigner you can be with unlimited access
+                      to all the existing and future courses.
+                    </p>
+                    <p class="color-text  fw-bold">Price:20$</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 ">
-            <div class="card mb-3" >
-              <div class="row  g-0">
+          <div class="col-lg-6 col-md-12">
+            <div class="card mb-3">
+              <div class="row g-0">
                 <div class="col-md-4 col-lg-4 col-sm-12">
-                  <img src="images/course/course-2.png" class="img-fluid rounded-start w-100" alt="...">
+                  <img
+                    src="images/course/course-2.png"
+                    class="img-fluid rounded-start w-100"
+                    alt="..."
+                  />
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12">
                   <div class="card-body">
-                    <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
-                    <p class="card-text text-secondary">Everything you need to program in Javascript in one course (includes 3 real-world projects).</p>
-                    <p class="text-info fw-bold">Price:120$</p>
+                    <h5 class="card-title fw-bold">
+                      Javascript Basic to advanced
+                    </h5>
+                    <p class="card-text text-secondary">
+                      Everything you need to program in Javascript in one course
+                      (includes 3 real-world projects).
+                    </p>
+                    <p class="color-text  fw-bold">Price:120$</p>
                   </div>
                 </div>
               </div>
             </div>
-            
           </div>
-          <div class="col-lg-6 col-md-12 ">
-            <div class="card mb-3" >
-              <div class="row  g-0">
+          <div class="col-lg-6 col-md-12">
+            <div class="card mb-3">
+              <div class="row g-0">
                 <div class="col-md-4 col-lg-4 col-sm-12">
-                  <img src="images/course/course-3.png" class="img-fluid rounded-start w-100" alt="...">
+                  <img
+                    src="images/course/course-3.png"
+                    class="img-fluid rounded-start w-100"
+                    alt="..."
+                  />
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12">
                   <div class="card-body">
-                    <h5 class="card-title fw-bold">Fullstack Web Development</h5>
-                    <p class="card-text text-secondary">Learn to write maintainable and extensible code. Become a senior Fullstack Web devoloper.
-                      3 Course Bundl</p>
-                    <p class="text-info fw-bold">Price:170$</p>
+                    <h5 class="card-title fw-bold">
+                      Fullstack Web Development
+                    </h5>
+                    <p class="card-text text-secondary">
+                      Learn to write maintainable and extensible code. Become a
+                      senior Fullstack Web devoloper. 3 Course Bundl
+                    </p>
+                    <p class="color-text  fw-bold">Price:170$</p>
                   </div>
                 </div>
               </div>
             </div>
-            
           </div>
-          <div class="col-lg-6 col-md-12 ">
-            <div class="card mb-3" >
-              <div class="row  g-0">
+          <div class="col-lg-6 col-md-12">
+            <div class="card mb-3">
+              <div class="row g-0">
                 <div class="col-md-4 col-lg-4 col-sm-12">
-                  <img src="images/course/course-4.png" class="img-fluid rounded-start w-100" alt="...">
+                  <img
+                    src="images/course/course-4.png"
+                    class="img-fluid rounded-start w-100"
+                    alt="..."
+                  />
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12">
                   <div class="card-body">
-                    <h5 class="card-title fw-bold">The Ultimate React Native Series</h5>
-                    <p class="card-text text-secondary">Everything you need to build and distribute professional-quality apps with React Native</p>
-                    <p class="text-info fw-bold">Price:40$</p>
+                    <h5 class="card-title fw-bold">
+                      The Ultimate React Native Series
+                    </h5>
+                    <p class="card-text text-secondary">
+                      Everything you need to build and distribute
+                      professional-quality apps with React Native
+                    </p>
+                    <p class="color-text  fw-bold">Price:40$</p>
                   </div>
                 </div>
               </div>
             </div>
-            
           </div>
-          <div class="col-lg-6 col-md-12 ">
-            <div class="card mb-3" >
-              <div class="row  g-0">
+          <div class="col-lg-6 col-md-12">
+            <div class="card mb-3">
+              <div class="row g-0">
                 <div class="col-md-4 col-lg-4 col-sm-12">
-                  <img src="images/course/course-5.png" class="img-fluid rounded-start w-100" alt="...">
+                  <img
+                    src="images/course/course-5.png"
+                    class="img-fluid rounded-start w-100"
+                    alt="..."
+                  />
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Photography Basic Rules</h5>
-                    <p class="card-text text-secondary">Explore your photography passion with our latest courses.You will be taught all about photography.</p>
-                    <p class="text-info fw-bold">Price:25$</p>
+                    <p class="card-text text-secondary">
+                      Explore your photography passion with our latest
+                      courses.You will be taught all about photography.
+                    </p>
+                    <p class="color-text  fw-bold">Price:25$</p>
                   </div>
                 </div>
               </div>
             </div>
-            
           </div>
-          <div class="col-lg-6 col-md-12 ">
-            <div class="card mb-3" >
-              <div class="row  g-0">
+          <div class="col-lg-6 col-md-12">
+            <div class="card mb-3">
+              <div class="row g-0">
                 <div class="col-md-4 col-lg-4 col-sm-12">
-                  <img src="images/course/course-6.png" class="img-fluid rounded-start w-100" alt="...">
+                  <img
+                    src="images/course/course-6.png"
+                    class="img-fluid rounded-start w-100"
+                    alt="..."
+                  />
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12">
                   <div class="card-body">
                     <h5 class="card-title fw-bold">Motion Graphics</h5>
-                    <p class="card-text text-secondary">Go from beginner to expert in 6 hours. Everything you need to make modern design with motion graphics.</p>
-                    <p class="text-info fw-bold">Price:50$</p>
+                    <p class="card-text text-secondary">
+                      Go from beginner to expert in 6 hours. Everything you need
+                      to make modern design with motion graphics.
+                    </p>
+                    <p class="color-text fw-bold">Price:50$</p>
                   </div>
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
-        
-        <div class="d-flex justify-content-center mt-4"><button class="btn btn-info text-white text-center">See More Courses</button></div>
-       
+
+        <div class="d-flex justify-content-center mt-4">
+          <button class="btn color-bg text-white text-center">
+            See More Courses
+          </button>
+        </div>
       </section>
-  
+
       <!-- courses section end -->
 
       <!-- institute section start  -->
-     
+
       <section class="container p-5">
         <div class="row g-0">
-          <div  class="col-lg-6 col-md-6 col-sm-12 ">
-            <img style="height: 700px;" src="images/working.png" class="img-fluid" alt="">
-
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img
+              style="height: 700px"
+              src="images/working.png"
+              class="img-fluid"
+              alt=""
+            />
           </div>
-          <div style="height: 700px;"  class="col-lg-6 col-md-6 col-sm-12 bg-light px-4 d-flex align-items-center">
+          <div
+            style="height: 700px"
+            class="col-lg-6 col-md-6 col-sm-12 bg-light px-4 d-flex align-items-center"
+          >
             <div class="institute-heading">
               <h1>Explore the Learning institutes</h1>
-              <p class="text-secondary">There are many variations of passages of Lorem Ipsum available,    but the majority have suffered alteration in some form, by injected humour, or 
-                randomised words which don't look even slightly believable. If you are going 
-                to use a passage of Lorem Ipsum, you need to be sure.</p>
-  
-               
-                <div class="d-flex justify-content-betwep"> 
-                  <div class="me-3">
-                    <h1 class="fw-bold">3.2k+</h1>
-                    <p class="text-secondary">Online Course</p>
-                  </div>
-                  <div class="me-3">
-                    <h1 class="fw-bold">600+</h1>
-                    <p class="text-secondary">Expert Member</p>
-                  </div>
-                  <div>
-                    <h1 class="fw-bold">1k+</h1>
-                    <p class="text-secondary">Rating and Review</p>
-                  </div>
+              <p class="text-secondary">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+                slightly believable. If you are going to use a passage of Lorem
+                Ipsum, you need to be sure.
+              </p>
+
+              <div class="d-flex justify-content-betwep">
+                <div class="me-3">
+                  <h1 class="fw-bold">3.2k+</h1>
+                  <p class="text-secondary">Online Course</p>
                 </div>
-                <button class="btn btn-info text-white px-4 py-2 fw-bold mt-3">Read More</button>
+                <div class="me-3">
+                  <h1 class="fw-bold">600+</h1>
+                  <p class="text-secondary">Expert Member</p>
+                </div>
+                <div>
+                  <h1 class="fw-bold">1k+</h1>
+                  <p class="text-secondary">Rating and Review</p>
+                </div>
+              </div>
+              <button class="btn color-bg text-white px-4 py-2 fw-bold mt-3">
+                Read More
+              </button>
             </div>
-
-
           </div>
         </div>
-
       </section>
 
       <!-- institute section end -->
 
+      <!-- Registetr section start here -->
 
-      
+      <section class="container p-5">
+        <div class="container p-5 color-bg d-flex justify-content-between align-items-center">
+          <div>
+            <h1 class="text-white">Ready to join?</h1>
+            <p class="text-white">
+              Explore our latest copurses with your great passion. <br />
+              And get ready for the next one.
+            </p>
+          </div>
+          <div>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-light fw-bold color-text px-4 py-2 me-4"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Register  Now
+            </button>
 
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Modal title
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">...</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      </main>
+      <!-- Registetr section end here -->
+    </main>
 
-
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
