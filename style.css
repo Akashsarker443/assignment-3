@@ -15,6 +15,7 @@
   background-color: #289BDE;
 }
 
+
 /* media query extra small device */
 
 @media screen and (max-width: 576px) {
@@ -36,6 +37,8 @@
   .img-height{
     height: 500px;
   }
+
+  
   
 }
 
@@ -51,6 +54,7 @@
   .carousel-item h1{
     font-size: 20px;
   }
+ 
 
   
   
