@@ -37,9 +37,6 @@
   .img-height{
     height: 500px;
   }
-
-  
-  
 }
 
 /* media query for small devices */
@@ -54,11 +51,6 @@
   .carousel-item h1{
     font-size: 20px;
   }
- 
-
-  
-  
-  
 }
 
 /* media query for medium devices */
